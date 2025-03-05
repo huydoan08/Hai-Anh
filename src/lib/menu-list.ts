@@ -46,6 +46,22 @@ export function getMenuList(pathname: string): Group[] {
           ]
         }
       ]
+    },
+    {
+      groupLabel: "",
+      menus: [
+        {
+          href: "",
+          label: "Bộ video của Dâu Tây",
+          icon: Image,
+          submenus: [
+            {
+              href: "/dau-tay-0-den-1-tuoi-video",
+              label: "Dâu Tây từ 0 đến 1 tuổi"
+            }
+          ]
+        }
+      ]
     }
   ];
 }
