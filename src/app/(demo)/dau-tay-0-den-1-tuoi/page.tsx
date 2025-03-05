@@ -25,9 +25,9 @@ export default function DauTayMotTuoiPage() {
 
   return (
     <ContentLayout title="Đoàn Hải Anh (Dâu Tây)">
-      <Card className="max-h-[67.5vh] overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700">
-        <CardContent className="p-6 space-y-4">
-          <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
+      <Card className="h-auto lg:h-screen max-h-[67.5vh] overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700">
+        <CardContent className=" h-full p-6 space-y-4">
+          <div className="relative h-full w-full h-[400px] overflow-hidden rounded-lg">
             <AnimatePresence mode="wait">
               <motion.img
                 key={currentIndex}

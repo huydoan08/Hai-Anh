@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = ["/21.jpg", "/22.jpg"];
+const images = ["/21.jpg", "/22.jpg", "/23.jpg"];
 
 export default function DauTayHaiTuoiPage() {
   const sidebar = useStore(useSidebar, (x) => x);
@@ -25,9 +25,9 @@ export default function DauTayHaiTuoiPage() {
 
   return (
     <ContentLayout title="Đoàn Hải Anh (Dâu Tây)">
-      <Card className="max-h-[67.5vh] overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700">
-        <CardContent className="p-6 space-y-4">
-          <div className="relative w-full h-[400px] overflow-hidden rounded-lg group bg-black/10 dark:bg-white/10">
+      <Card className="h-auto lg:h-screen overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700">
+        <CardContent className="p-6 space-y-4 h-full">
+          <div className="relative w-full h-full overflow-hidden rounded-lg group bg-black/10 dark:bg-white/10">
             <AnimatePresence mode="wait">
               <motion.img
                 key={currentIndex}
