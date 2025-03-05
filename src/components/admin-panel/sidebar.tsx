@@ -44,7 +44,7 @@ export function Sidebar() {
                   : "translate-x-0 opacity-100"
               )}
             >
-              Trading systems
+              Đoàn Hải Anh (Dâu Tây)
             </h1>
           </Link>
         </Button>

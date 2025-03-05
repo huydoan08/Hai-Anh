@@ -7,13 +7,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = [
-  "/demo-dark-min.png",
-  "/demo-light-min.png",
-  "/demo-dark-min.png",
-];
+const images = ["/01.jpg", "/02.jpg"];
 
-export default function BeautifulModelPage() {
+export default function DauTayMotTuoiPage() {
   const sidebar = useStore(useSidebar, (x) => x);
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -28,7 +24,7 @@ export default function BeautifulModelPage() {
   };
 
   return (
-    <ContentLayout title="Mẫu hình đúng tiêu chuẩn">
+    <ContentLayout title="Đoàn Hải Anh (Dâu Tây)">
       <Card className="max-h-[67.5vh] overflow-hidden shadow-lg border border-gray-200 dark:border-gray-700">
         <CardContent className="p-6 space-y-4">
           <div className="relative w-full h-[400px] overflow-hidden rounded-lg">
@@ -51,7 +47,10 @@ export default function BeautifulModelPage() {
               className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white/80 dark:bg-black/60 rounded-full p-3 shadow-lg hover:bg-white hover:scale-110 transition-all"
               aria-label="Previous Image"
             >
-              <ChevronLeft size={32} className="text-gray-800 dark:text-gray-200" />
+              <ChevronLeft
+                size={32}
+                className="text-gray-800 dark:text-gray-200"
+              />
             </button>
 
             {/* Nút Next */}
@@ -60,7 +59,10 @@ export default function BeautifulModelPage() {
               className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white/80 dark:bg-black/60 rounded-full p-3 shadow-lg hover:bg-white hover:scale-110 transition-all"
               aria-label="Next Image"
             >
-              <ChevronRight size={32} className="text-gray-800 dark:text-gray-200" />
+              <ChevronRight
+                size={32}
+                className="text-gray-800 dark:text-gray-200"
+              />
             </button>
 
             {/* Hiển thị số ảnh */}

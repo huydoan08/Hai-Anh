@@ -2,7 +2,8 @@ import {
  Sprout,
   LucideIcon,
   LandPlot,
-  AlignHorizontalDistributeCenter
+  AlignHorizontalDistributeCenter,
+  Image
 } from "lucide-react";
 
 type Submenu = {
@@ -30,51 +31,21 @@ export function getMenuList(pathname: string): Group[] {
       groupLabel: "",
       menus: [
         {
-          href: "/strategy",
-          label: "Strategy",
-          icon: LandPlot,
-          submenus: []
-        }
-      ]
-    },
-    {
-      groupLabel: "",
-      menus: [
-        {
           href: "",
-          label: "Trading Process",
-          icon: AlignHorizontalDistributeCenter,
+          label: "Bộ ảnh của Dâu Tây",
+          icon: Image,
           submenus: [
             {
-              href: "/conditions-for-entering-a-trade",
-              label: "Conditions For Entering a Trade"
+              href: "/dau-tay-0-den-1-tuoi",
+              label: "Dâu Tây từ 0 đến 1 tuổi"
             },
             {
-              href: "/during-trade-execution",
-              label: "During Trade Execution"
-            },
-            {
-              href: "/after-trade-closes",
-              label: "After Trade Closes"
-            },
-            {
-              href: "/beautiful-model",
-              label: "Beautiful Model"
+              href: "/dau-tay-1-den-2-tuoi",
+              label: "Dâu Tây từ 1 đến 2 tuổi"
             }
           ]
         }
       ]
-    },
-    {
-      groupLabel: "",
-      menus: [
-        {
-          href: "/psychological-mastery",
-          label: "Psychological Mastery in Trading",
-          icon: Sprout,
-          submenus: []
-        }
-      ]
-    },
+    }
   ];
 }

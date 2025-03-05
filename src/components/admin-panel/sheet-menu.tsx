@@ -28,7 +28,7 @@ export function SheetMenu() {
           >
             <Link href="/strategy" className="flex items-center gap-2">
               <PanelsTopLeft className="w-6 h-6 mr-1" />
-              <SheetTitle className="font-bold text-lg">Trading systems</SheetTitle>
+              <SheetTitle className="font-bold text-lg">Đoàn Hải Anh (Dâu Tây)</SheetTitle>
             </Link>
           </Button>
         </SheetHeader>
