@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = ["/01.jpg", "/02.jpg"];
+const images = ["/01.jpg", "/02.jpg", "/03.jpg", "/04.jpg"];
 
 export default function HomePage() {
   const sidebar = useStore(useSidebar, (x) => x);

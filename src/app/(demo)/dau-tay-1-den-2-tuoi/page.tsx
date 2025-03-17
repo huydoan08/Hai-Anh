@@ -7,7 +7,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-const images = ["/21.jpg", "/22.jpg", "/23.jpg"];
+const images = ["/21.jpg", "/22.jpg", "/23.jpg", "24.jpg", "25.jpg", "26.jpg", "27.jpg", "28.jpg", "29.jpg"];
 
 export default function DauTayHaiTuoiPage() {
   const sidebar = useStore(useSidebar, (x) => x);
