@@ -3,7 +3,10 @@ import {
   LucideIcon,
   LandPlot,
   AlignHorizontalDistributeCenter,
-  Image
+  Image,
+  Wallpaper,
+  Heart,
+  MailboxIcon
 } from "lucide-react";
 
 type Submenu = {
@@ -51,17 +54,23 @@ export function getMenuList(pathname: string): Group[] {
       groupLabel: "",
       menus: [
         {
-          href: "",
-          label: "Bộ video của Dâu Tây",
-          icon: Image,
-          submenus: [
-            {
-              href: "/dau-tay-0-den-1-tuoi-video",
-              label: "Dâu Tây từ 0 đến 1 tuổi"
-            }
-          ]
+          href: "/technology",
+          label: "Công nghệ",
+          icon: MailboxIcon,
+          submenus: []
         }
       ]
-    }
+    },
+    {
+      groupLabel: "",
+      menus: [
+        {
+          href: "/raising-children",
+          label: "Giáo dục con",
+          icon: Heart,
+          submenus: []
+        }
+      ]
+    },
   ];
 }
