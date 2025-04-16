@@ -7,7 +7,7 @@ import { useStore } from "@/hooks/use-store";
 import { useRouter } from "next/navigation";
 import { Dot } from "lucide-react";
 
-const technology = ["..."];
+const technology = ["Công thức để viết một câu hỏi: [mô tả task/ngữ cảnh]-[vấn đề cụ thể hoặc điều cần làm]-[cung cấp dữ liệu]-[hành động mong muốn: giải thích, sửa, tối ưu, v.v.]"];
 
 export default function TechnologyPage() {
   const sidebar = useStore(useSidebar, (x) => x);
@@ -18,7 +18,7 @@ export default function TechnologyPage() {
       <Card className="max-h-[67.5vh] overflow-auto shadow-lg border border-black-200 dark:border-black-700">
         <CardContent className="p-6 space-y-4">
           <div className="font-bold text-lg text-black-800 dark:text-white">
-            Mẹo sử dụng công nghệ:
+            Cách sử dụng AI hiệu quả:
           </div>
           <div className="space-y-2">
             {technology.map((item, idx) => (
