@@ -6,7 +6,8 @@ import {
   Image,
   Wallpaper,
   Heart,
-  MailboxIcon
+  MailboxIcon,
+  Apple
 } from "lucide-react";
 
 type Submenu = {
@@ -56,7 +57,7 @@ export function getMenuList(pathname: string): Group[] {
         {
           href: "/technology",
           label: "Công nghệ",
-          icon: MailboxIcon,
+          icon: Apple,
           submenus: []
         }
       ]
