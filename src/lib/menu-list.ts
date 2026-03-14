@@ -46,7 +46,11 @@ export function getMenuList(pathname: string): Group[] {
             {
               href: "/dau-tay-1-den-2-tuoi",
               label: "Dâu Tây từ 1 đến 2 tuổi"
-            }
+            },
+            {
+              href: "/dau-tay-2-den-3-tuoi",
+              label: "Dâu Tây từ 2 đến 3 tuổi"
+            },
           ]
         }
       ]
