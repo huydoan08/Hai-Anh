@@ -55,17 +55,6 @@ export function getMenuList(pathname: string): Group[] {
       groupLabel: "",
       menus: [
         {
-          href: "/technology",
-          label: "Công nghệ",
-          icon: Apple,
-          submenus: []
-        }
-      ]
-    },
-    {
-      groupLabel: "",
-      menus: [
-        {
           href: "/raising-children",
           label: "Giáo dục con",
           icon: Heart,
