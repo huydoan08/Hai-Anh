@@ -1,12 +1,7 @@
 import {
- Sprout,
   LucideIcon,
-  LandPlot,
-  AlignHorizontalDistributeCenter,
   Image,
-  Wallpaper,
   Heart,
-  MailboxIcon,
   Apple
 } from "lucide-react";
 
@@ -62,6 +57,17 @@ export function getMenuList(pathname: string): Group[] {
           href: "/raising-children",
           label: "Giáo dục con",
           icon: Heart,
+          submenus: []
+        }
+      ]
+    },
+    {
+      groupLabel: "",
+      menus: [
+        {
+          href: "/javascript",
+          label: "JavaScript",
+          icon: Apple,
           submenus: []
         }
       ]
